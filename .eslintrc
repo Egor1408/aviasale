@@ -1,0 +1,22 @@
+{
+    "extends": ["airbnb/base"],
+    "plugins": ["react"],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "semi": "off",
+        "no-plusplus": "off",
+        "eol-last": "off",
+        "max-len": ["error", 150],
+        "no-param-reassign": "off",
+        "no-unused-vars": "off",
+        "linebreak-style": 0,
+        "no-nested-ternary": "off",
+        "class-methods-use-this": "off",
+        "no-return-assign": "off"
+    }
+
+}
