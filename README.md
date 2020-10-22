@@ -1,1 +1,1 @@
-https://github.com/Egor1408/aviasale/tree/gh-pages
+https://egor1408.github.io/aviasales/
