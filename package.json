@@ -1,5 +1,6 @@
 {
   "name": "aviasales",
+  "homepage": "http://egor1408.github.io/aviasales",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
