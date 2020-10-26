@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/aviasales/static/css/main.b5bee1c9.chunk.css",
-    "main.js": "/aviasales/static/js/main.f0d5fda0.chunk.js",
-    "main.js.map": "/aviasales/static/js/main.f0d5fda0.chunk.js.map",
-    "runtime-main.js": "/aviasales/static/js/runtime-main.b4f11597.js",
-    "runtime-main.js.map": "/aviasales/static/js/runtime-main.b4f11597.js.map",
-    "static/js/2.a495511f.chunk.js": "/aviasales/static/js/2.a495511f.chunk.js",
-    "static/js/2.a495511f.chunk.js.map": "/aviasales/static/js/2.a495511f.chunk.js.map",
-    "index.html": "/aviasales/index.html",
-    "precache-manifest.a6a5a61b6aa887bb4a397dde4135b1f1.js": "/aviasales/precache-manifest.a6a5a61b6aa887bb4a397dde4135b1f1.js",
-    "service-worker.js": "/aviasales/service-worker.js",
-    "static/css/main.b5bee1c9.chunk.css.map": "/aviasales/static/css/main.b5bee1c9.chunk.css.map",
-    "static/js/2.a495511f.chunk.js.LICENSE.txt": "/aviasales/static/js/2.a495511f.chunk.js.LICENSE.txt",
-    "static/media/Lodo.module.scss": "/aviasales/static/media/Logo.d2a4807b.png",
-    "static/media/FilterItem.module.scss": "/aviasales/static/media/Shape.68ca57dc.svg"
+    "main.css": "/aviasale/static/css/main.544835aa.chunk.css",
+    "main.js": "/aviasale/static/js/main.b048c733.chunk.js",
+    "main.js.map": "/aviasale/static/js/main.b048c733.chunk.js.map",
+    "runtime-main.js": "/aviasale/static/js/runtime-main.7864d3fb.js",
+    "runtime-main.js.map": "/aviasale/static/js/runtime-main.7864d3fb.js.map",
+    "static/js/2.75b18e69.chunk.js": "/aviasale/static/js/2.75b18e69.chunk.js",
+    "static/js/2.75b18e69.chunk.js.map": "/aviasale/static/js/2.75b18e69.chunk.js.map",
+    "index.html": "/aviasale/index.html",
+    "precache-manifest.02c5e08d58771091c9c45632905395a4.js": "/aviasale/precache-manifest.02c5e08d58771091c9c45632905395a4.js",
+    "service-worker.js": "/aviasale/service-worker.js",
+    "static/css/main.544835aa.chunk.css.map": "/aviasale/static/css/main.544835aa.chunk.css.map",
+    "static/js/2.75b18e69.chunk.js.LICENSE.txt": "/aviasale/static/js/2.75b18e69.chunk.js.LICENSE.txt",
+    "static/media/Lodo.module.scss": "/aviasale/static/media/Logo.d2a4807b.png",
+    "static/media/FilterItem.module.scss": "/aviasale/static/media/Shape.68ca57dc.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b4f11597.js",
-    "static/js/2.a495511f.chunk.js",
-    "static/css/main.b5bee1c9.chunk.css",
-    "static/js/main.f0d5fda0.chunk.js"
+    "static/js/runtime-main.7864d3fb.js",
+    "static/js/2.75b18e69.chunk.js",
+    "static/css/main.544835aa.chunk.css",
+    "static/js/main.b048c733.chunk.js"
   ]
 }
