@@ -1,1 +1,1 @@
-https://egor1408.github.io/aviasales/
+https://egor1408.github.io/aviasale/
