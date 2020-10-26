@@ -1,1 +1,0 @@
-export const CHECKBOX_CLICK = 'CHECKBOX_CLICK';
