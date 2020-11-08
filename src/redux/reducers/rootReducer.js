@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
-import filters from './filters';
+import aviasales from './aviasales';
 
 export default combineReducers({
-  filters,
+  aviasales,
 })

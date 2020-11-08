@@ -1,0 +1,204 @@
+@mixin spanRotate($d) {
+  transform: rotate($d);
+}
+@mixin spanDelay($s) {
+  animation-delay: $s;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(370deg);
+  }
+}
+.SpinWrapper {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .spinner {
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+    & span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        background: #2196F3;
+        border-radius: 50%;
+        animation: animate 2s linear infinite;
+        transform: scale(0);
+        animation-delay: 1.5s;
+      }
+    }
+    & .plane {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      animation: rotating 2s linear infinite;
+
+      &::before {
+        content: '\f072';
+        font-family: fontAwesome;
+        position: absolute;
+        color: #2196F3;
+        top: -15px;
+        left: -20px;
+        font-size: 50px;
+        transform: rotate(-10deg);
+      }
+    }
+    & .span1 {
+      @include spanRotate(18deg);
+      &::before {
+        @include spanDelay(0.1s)
+      }
+    }
+    & .span2 {
+      @include spanRotate(36deg);
+      &::before {
+        @include spanDelay(0.2s)
+      }
+    }
+    & .span3 {
+      @include spanRotate(54deg);
+      &::before {
+        @include spanDelay(0.3s)
+      }
+    }
+    & .span4 {
+      @include spanRotate(72deg);
+      &::before {
+        @include spanDelay(0.4s)
+      }
+    }
+    & .span5 {
+      @include spanRotate(90deg);
+      &::before {
+        @include spanDelay(0.5s)
+      }
+    }
+    & .span6 {
+      @include spanRotate(108deg);
+      &::before {
+        @include spanDelay(0.6s)
+      }
+    }
+    & .span7 {
+      @include spanRotate(126deg);
+      &::before {
+        @include spanDelay(0.7s)
+      }
+    }
+    & .span8 {
+      @include spanRotate(144deg);
+      &::before {
+        @include spanDelay(0.8s)
+      }
+    }
+    & .span9 {
+      @include spanRotate(162deg);
+      &::before {
+        @include spanDelay(0.9s)
+      }
+    }
+    & .span10 {
+      @include spanRotate(180deg);
+      &::before {
+        @include spanDelay(1s)
+      }
+    }
+    & .span11 {
+      @include spanRotate(198deg);
+      &::before {
+        @include spanDelay(1.1s)
+      }
+    }
+    & .span12 {
+      @include spanRotate(216deg);
+      &::before {
+        @include spanDelay(1.2s)
+      }
+    }
+    & .span13 {
+      @include spanRotate(234deg);
+      &::before {
+        @include spanDelay(1.3s)
+      }
+    }
+    & .span14 {
+      @include spanRotate(252deg);
+      &::before {
+        @include spanDelay(1.4s)
+      }
+    }
+    & .span15 {
+      @include spanRotate(270deg);
+      &::before {
+        @include spanDelay(1.5s)
+      }
+    }
+    & .span16 {
+      @include spanRotate(288deg);
+      &::before {
+        @include spanDelay(1.6s)
+      }
+    }
+    & .span17 {
+      @include spanRotate(306deg);
+      &::before {
+        @include spanDelay(1.7s)
+      }
+    }
+    & .span18 {
+      @include spanRotate(324deg);
+      &::before {
+        @include spanDelay(1.8s)
+      }
+    }
+    & .span19 {
+      @include spanRotate(342deg);
+      &::before {
+        @include spanDelay(1.9s)
+      }
+    }
+    & .span20 {
+      @include spanRotate(360deg);
+      &::before {
+        @include spanDelay(2s)
+      }
+    }
+  }
+}

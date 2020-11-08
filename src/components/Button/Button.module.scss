@@ -30,4 +30,9 @@
     border: 1px solid #2196f3;
     color: #fff
   }
+  &:hover {
+    cursor: url(../../images/Cursor.png) 8 4, auto;
+    text-decoration: underline;
+    box-shadow: 2px 2px 0 0 rgba(33, 150, 243, 0.5);
+  }
 }

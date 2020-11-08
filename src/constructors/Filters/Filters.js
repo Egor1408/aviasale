@@ -1,20 +1,20 @@
 import React from 'react';
 import { connect } from 'react-redux';
-// import * as actions from '../../redux/actions/actions';
-import { checkboxClick } from '../../redux/actions/actions';
+import { checkboxClick } from '../../redux/actions/aviasales';
 import FilterItem from '../../components/FilterItem/FilterItem';
 import classes from './Filters.module.scss';
 
 const Filters = (props) => {
-  const elem = props.data.map((item, index) => (
+  const elem = props.filtersData.map((item, index) => (
       <FilterItem
         name={item.name}
         checked={item.checked}
         id={item.id}
         key={index}
-        checkboxClick={props.checkClick}
+        checkboxClick={props.checkboxClick}
       />
   ))
+
   return (
     <div className={classes.filters}>
       <span className={classes['filters-title']}>Колличество пересадок</span>
@@ -27,13 +27,14 @@ const Filters = (props) => {
 
 function mapStateToProps(state) {
   return {
-    data: state.filters.data,
+    filtersData: state.aviasales.filtersData,
   }
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    checkClick: (id) => dispatch(checkboxClick(id)),
+    checkboxClick: (id) => dispatch(checkboxClick(id)),
   }
 }
+
 export default connect(mapStateToProps, mapDispatchToProps)(Filters);

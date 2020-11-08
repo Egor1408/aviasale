@@ -13,6 +13,7 @@ function App() {
       <div className={classes['main-content']}>
         <Filters />
         <TicketsList />
+
       </div>
     </div>
   );
