@@ -24,7 +24,7 @@ const store = createStore(rootReducer, composeEnhancers(applyMiddleware(
 )));
 const app = (
     <Provider store = { store }>
-        <App />
+      <App />
     </Provider>
 )
 ReactDOM.render(app, document.getElementById('root'));
